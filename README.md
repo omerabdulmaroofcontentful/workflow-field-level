@@ -1,3 +1,9 @@
+
+## About the application
+Using this side bar app you first set the workflow in the field using validations and then make the field **disable for Editing** within Contentful, and install the application in the Side bar, this way editor can set the different states of the Entry which would be set on the field but won't be visible to the editor on the field view. 
+
+Also there is a requirement of audit history, which can be fulfilled using this app, as soon as customer changes the workflow state, you can get the information about the author using sdk.user and push it to your backend services and have an audit view in the side bar which shows history of the changes  status
+
 This project was bootstrapped with [Create Contentful App](https://github.com/contentful/create-contentful-app).
 
 ## Available Scripts
